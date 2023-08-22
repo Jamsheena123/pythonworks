@@ -1,0 +1,41 @@
+body{
+    background-color:black;
+}
+h2{
+    color:yellow;
+    text-decoration:underline;
+    
+}
+a{
+
+    color:white;
+    text-decoration: none;
+    
+}
+/* #id{
+    property:value 
+    */
+
+
+/* #id_tag{
+    color:aquamarine
+} */
+
+/* tagselectors */
+/* tagname{} */
+/* class */
+/* id */
+
+.heading{
+    color:white;
+}
+.heading-success{
+    color: green;
+}
+.cards{
+    width: 30%;
+    height:300px;
+    background-color:aquamarine;
+    color:black
+
+}

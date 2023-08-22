@@ -1,0 +1,44 @@
+.row{
+    width: 80%;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+   /* horizontally space using justify contents */
+    /* justify-content: flex-end;right  */
+    /* flex-direction: column;
+    justify-content: flex-start;left
+    justify-content: space-between;
+    justify-content: space-around;all are space
+    justify-content: space-evenly;equal space */
+    flex-wrap: wrap;
+    /* vertically using align items */
+    /* align-items: center;  */
+    /* gap:20px ->using gaps*/
+   
+
+
+}
+
+
+.col{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    /* text-align: center; */
+  
+}
+.col:nth-child(1){
+    flex: 1;
+    order: 2;
+}
+.col:nth-child(2){
+    flex: 1;
+    order: 1;
+}
+.col:nth-child(3){
+    flex: 1;
+    order: 3;
+}

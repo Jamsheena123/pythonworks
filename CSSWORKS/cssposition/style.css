@@ -1,0 +1,41 @@
+
+.rows{
+    width: 100%;
+    height: 300px;
+    border:1px solid white;
+    background-color: rgb(49, 30, 50);
+    margin-top: 30px;
+    position: relative;
+}
+
+.col{
+    width:20%;
+    height: 150px;
+    border:1px solid black
+   
+
+}
+.col:nth-child(1){
+    background-color: rgb(219, 37, 146);
+    position:absolute;
+    left:0px;
+
+}
+.col:nth-child(2){
+    position: relative;
+    top: 0;
+    background-color: rgb(217, 223, 27);
+    position:absolute;
+    right:0px;
+}
+.fixed{
+    position:fixed;
+    top: 200px;
+    right: 0;
+}
+.sticky{
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
+}
